@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// import cors from 'cors';
+
 function App() {
   return (
     <div className="App">
@@ -19,17 +21,17 @@ function App() {
           Learn React
         </a>
 
+
+      </header>
       <button
           onClick={() => {
-            fetch("http://localhost:3000/", {})
+            fetch("http://localhost:3001/data", {})
               .then((response) => response.json())
               .then((data) => console.log(data));
           }}
         >
           GET SOME DATA
         </button>
-
-      </header>
     </div>
   );
 }
