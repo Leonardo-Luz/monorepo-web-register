@@ -1,12 +1,13 @@
 import React from "react"
 
 type NavbarLinkProps = {
-    children: React.ReactNode
+    children: React.ReactNode,
+    link: string
 }
 
-export const NavbarLink = ( {children }: NavbarLinkProps) =>
+export const NavbarLink = ( {children , link }: NavbarLinkProps) =>
 {
     return (
-        <a>{children}</a>
+        <a href={link}>{children}</a>
     )
 }

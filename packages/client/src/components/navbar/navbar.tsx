@@ -6,9 +6,9 @@ const Navbar = () =>
     return (
         <header>
             <div className="navbar">
-                <NavbarLink>Home</NavbarLink>
-                <NavbarLink>Register</NavbarLink>
-                <NavbarLink>About Me</NavbarLink>
+                <NavbarLink link="#" >Home</NavbarLink>
+                <NavbarLink link="#">Register</NavbarLink>
+                <NavbarLink link="#">About Me</NavbarLink>
             </div>
         </header>
     )

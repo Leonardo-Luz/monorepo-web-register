@@ -1,4 +1,10 @@
+*{ /* tirar daqui */
+    text-decoration: none;
+    color: black;
+}
+
 header{
+    margin-top: 12px;
     position: fixed;
     width: 100%;
 
